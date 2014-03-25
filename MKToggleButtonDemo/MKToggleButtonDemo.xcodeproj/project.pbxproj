@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2749668118E1BA8A002DDF7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2749668018E1BA8A002DDF7F /* Foundation.framework */; };
+		2749668318E1BA8A002DDF7F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2749668218E1BA8A002DDF7F /* CoreGraphics.framework */; };
+		2749668518E1BA8A002DDF7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2749668418E1BA8A002DDF7F /* UIKit.framework */; };
+		2749668B18E1BA8A002DDF7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2749668918E1BA8A002DDF7F /* InfoPlist.strings */; };
+		2749668D18E1BA8B002DDF7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2749668C18E1BA8A002DDF7F /* main.m */; };
+		2749669118E1BA8B002DDF7F /* MKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2749669018E1BA8B002DDF7F /* MKAppDelegate.m */; };
+		2749669418E1BA8B002DDF7F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2749669218E1BA8B002DDF7F /* Main.storyboard */; };
+		2749669718E1BA8B002DDF7F /* MKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2749669618E1BA8B002DDF7F /* MKViewController.m */; };
+		2749669918E1BA8B002DDF7F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2749669818E1BA8B002DDF7F /* Images.xcassets */; };
+		274966A018E1BA8B002DDF7F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2749669F18E1BA8B002DDF7F /* XCTest.framework */; };
+		274966A118E1BA8B002DDF7F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2749668018E1BA8A002DDF7F /* Foundation.framework */; };
+		274966A218E1BA8B002DDF7F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2749668418E1BA8A002DDF7F /* UIKit.framework */; };
+		274966AA18E1BA8B002DDF7F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 274966A818E1BA8B002DDF7F /* InfoPlist.strings */; };
+		274966AC18E1BA8B002DDF7F /* MKToggleButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274966AB18E1BA8B002DDF7F /* MKToggleButtonDemoTests.m */; };
+		274966B718E1BAC1002DDF7F /* MKToggleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 274966B618E1BAC1002DDF7F /* MKToggleButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		274966A318E1BA8B002DDF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2749667518E1BA8A002DDF7F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2749667C18E1BA8A002DDF7F;
+			remoteInfo = MKToggleButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2749667D18E1BA8A002DDF7F /* MKToggleButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKToggleButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2749668018E1BA8A002DDF7F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2749668218E1BA8A002DDF7F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2749668418E1BA8A002DDF7F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2749668818E1BA8A002DDF7F /* MKToggleButtonDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKToggleButtonDemo-Info.plist"; sourceTree = "<group>"; };
+		2749668A18E1BA8A002DDF7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2749668C18E1BA8A002DDF7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2749668E18E1BA8B002DDF7F /* MKToggleButtonDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MKToggleButtonDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2749668F18E1BA8B002DDF7F /* MKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKAppDelegate.h; sourceTree = "<group>"; };
+		2749669018E1BA8B002DDF7F /* MKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKAppDelegate.m; sourceTree = "<group>"; };
+		2749669318E1BA8B002DDF7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2749669518E1BA8B002DDF7F /* MKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKViewController.h; sourceTree = "<group>"; };
+		2749669618E1BA8B002DDF7F /* MKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKViewController.m; sourceTree = "<group>"; };
+		2749669818E1BA8B002DDF7F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2749669E18E1BA8B002DDF7F /* MKToggleButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MKToggleButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2749669F18E1BA8B002DDF7F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		274966A718E1BA8B002DDF7F /* MKToggleButtonDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MKToggleButtonDemoTests-Info.plist"; sourceTree = "<group>"; };
+		274966A918E1BA8B002DDF7F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		274966AB18E1BA8B002DDF7F /* MKToggleButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKToggleButtonDemoTests.m; sourceTree = "<group>"; };
+		274966B518E1BAC1002DDF7F /* MKToggleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MKToggleButton.h; path = ../../MKToggleButton/MKToggleButton.h; sourceTree = "<group>"; };
+		274966B618E1BAC1002DDF7F /* MKToggleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MKToggleButton.m; path = ../../MKToggleButton/MKToggleButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2749667A18E1BA8A002DDF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2749668318E1BA8A002DDF7F /* CoreGraphics.framework in Frameworks */,
+				2749668518E1BA8A002DDF7F /* UIKit.framework in Frameworks */,
+				2749668118E1BA8A002DDF7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2749669B18E1BA8B002DDF7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274966A018E1BA8B002DDF7F /* XCTest.framework in Frameworks */,
+				274966A218E1BA8B002DDF7F /* UIKit.framework in Frameworks */,
+				274966A118E1BA8B002DDF7F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2749667418E1BA8A002DDF7F = {
+			isa = PBXGroup;
+			children = (
+				2749668618E1BA8A002DDF7F /* MKToggleButtonDemo */,
+				274966A518E1BA8B002DDF7F /* MKToggleButtonDemoTests */,
+				2749667F18E1BA8A002DDF7F /* Frameworks */,
+				2749667E18E1BA8A002DDF7F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2749667E18E1BA8A002DDF7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2749667D18E1BA8A002DDF7F /* MKToggleButtonDemo.app */,
+				2749669E18E1BA8B002DDF7F /* MKToggleButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2749667F18E1BA8A002DDF7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2749668018E1BA8A002DDF7F /* Foundation.framework */,
+				2749668218E1BA8A002DDF7F /* CoreGraphics.framework */,
+				2749668418E1BA8A002DDF7F /* UIKit.framework */,
+				2749669F18E1BA8B002DDF7F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2749668618E1BA8A002DDF7F /* MKToggleButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2749668F18E1BA8B002DDF7F /* MKAppDelegate.h */,
+				2749669018E1BA8B002DDF7F /* MKAppDelegate.m */,
+				2749669218E1BA8B002DDF7F /* Main.storyboard */,
+				2749669518E1BA8B002DDF7F /* MKViewController.h */,
+				2749669618E1BA8B002DDF7F /* MKViewController.m */,
+				2749669818E1BA8B002DDF7F /* Images.xcassets */,
+				274966B818E1BAC9002DDF7F /* MKToggleButton */,
+				2749668718E1BA8A002DDF7F /* Supporting Files */,
+			);
+			path = MKToggleButtonDemo;
+			sourceTree = "<group>";
+		};
+		2749668718E1BA8A002DDF7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2749668818E1BA8A002DDF7F /* MKToggleButtonDemo-Info.plist */,
+				2749668918E1BA8A002DDF7F /* InfoPlist.strings */,
+				2749668C18E1BA8A002DDF7F /* main.m */,
+				2749668E18E1BA8B002DDF7F /* MKToggleButtonDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274966A518E1BA8B002DDF7F /* MKToggleButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				274966AB18E1BA8B002DDF7F /* MKToggleButtonDemoTests.m */,
+				274966A618E1BA8B002DDF7F /* Supporting Files */,
+			);
+			path = MKToggleButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		274966A618E1BA8B002DDF7F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274966A718E1BA8B002DDF7F /* MKToggleButtonDemoTests-Info.plist */,
+				274966A818E1BA8B002DDF7F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274966B818E1BAC9002DDF7F /* MKToggleButton */ = {
+			isa = PBXGroup;
+			children = (
+				274966B518E1BAC1002DDF7F /* MKToggleButton.h */,
+				274966B618E1BAC1002DDF7F /* MKToggleButton.m */,
+			);
+			name = MKToggleButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2749667C18E1BA8A002DDF7F /* MKToggleButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274966AF18E1BA8B002DDF7F /* Build configuration list for PBXNativeTarget "MKToggleButtonDemo" */;
+			buildPhases = (
+				2749667918E1BA8A002DDF7F /* Sources */,
+				2749667A18E1BA8A002DDF7F /* Frameworks */,
+				2749667B18E1BA8A002DDF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKToggleButtonDemo;
+			productName = MKToggleButtonDemo;
+			productReference = 2749667D18E1BA8A002DDF7F /* MKToggleButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2749669D18E1BA8B002DDF7F /* MKToggleButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 274966B218E1BA8B002DDF7F /* Build configuration list for PBXNativeTarget "MKToggleButtonDemoTests" */;
+			buildPhases = (
+				2749669A18E1BA8B002DDF7F /* Sources */,
+				2749669B18E1BA8B002DDF7F /* Frameworks */,
+				2749669C18E1BA8B002DDF7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				274966A418E1BA8B002DDF7F /* PBXTargetDependency */,
+			);
+			name = MKToggleButtonDemoTests;
+			productName = MKToggleButtonDemoTests;
+			productReference = 2749669E18E1BA8B002DDF7F /* MKToggleButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2749667518E1BA8A002DDF7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mikekatz;
+				TargetAttributes = {
+					2749669D18E1BA8B002DDF7F = {
+						TestTargetID = 2749667C18E1BA8A002DDF7F;
+					};
+				};
+			};
+			buildConfigurationList = 2749667818E1BA8A002DDF7F /* Build configuration list for PBXProject "MKToggleButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2749667418E1BA8A002DDF7F;
+			productRefGroup = 2749667E18E1BA8A002DDF7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2749667C18E1BA8A002DDF7F /* MKToggleButtonDemo */,
+				2749669D18E1BA8B002DDF7F /* MKToggleButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2749667B18E1BA8A002DDF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2749669918E1BA8B002DDF7F /* Images.xcassets in Resources */,
+				2749668B18E1BA8A002DDF7F /* InfoPlist.strings in Resources */,
+				2749669418E1BA8B002DDF7F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2749669C18E1BA8B002DDF7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274966AA18E1BA8B002DDF7F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2749667918E1BA8A002DDF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2749669118E1BA8B002DDF7F /* MKAppDelegate.m in Sources */,
+				274966B718E1BAC1002DDF7F /* MKToggleButton.m in Sources */,
+				2749669718E1BA8B002DDF7F /* MKViewController.m in Sources */,
+				2749668D18E1BA8B002DDF7F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2749669A18E1BA8B002DDF7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				274966AC18E1BA8B002DDF7F /* MKToggleButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		274966A418E1BA8B002DDF7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2749667C18E1BA8A002DDF7F /* MKToggleButtonDemo */;
+			targetProxy = 274966A318E1BA8B002DDF7F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2749668918E1BA8A002DDF7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2749668A18E1BA8A002DDF7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2749669218E1BA8B002DDF7F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2749669318E1BA8B002DDF7F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		274966A818E1BA8B002DDF7F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				274966A918E1BA8B002DDF7F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		274966AD18E1BA8B002DDF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		274966AE18E1BA8B002DDF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		274966B018E1BA8B002DDF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKToggleButtonDemo/MKToggleButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKToggleButtonDemo/MKToggleButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		274966B118E1BA8B002DDF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKToggleButtonDemo/MKToggleButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKToggleButtonDemo/MKToggleButtonDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		274966B318E1BA8B002DDF7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKToggleButtonDemo.app/MKToggleButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKToggleButtonDemo/MKToggleButtonDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MKToggleButtonDemoTests/MKToggleButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		274966B418E1BA8B002DDF7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MKToggleButtonDemo.app/MKToggleButtonDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MKToggleButtonDemo/MKToggleButtonDemo-Prefix.pch";
+				INFOPLIST_FILE = "MKToggleButtonDemoTests/MKToggleButtonDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2749667818E1BA8A002DDF7F /* Build configuration list for PBXProject "MKToggleButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274966AD18E1BA8B002DDF7F /* Debug */,
+				274966AE18E1BA8B002DDF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		274966AF18E1BA8B002DDF7F /* Build configuration list for PBXNativeTarget "MKToggleButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274966B018E1BA8B002DDF7F /* Debug */,
+				274966B118E1BA8B002DDF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		274966B218E1BA8B002DDF7F /* Build configuration list for PBXNativeTarget "MKToggleButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				274966B318E1BA8B002DDF7F /* Debug */,
+				274966B418E1BA8B002DDF7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2749667518E1BA8A002DDF7F /* Project object */;
+}
