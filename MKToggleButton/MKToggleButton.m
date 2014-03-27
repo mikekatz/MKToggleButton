@@ -39,9 +39,13 @@
     _shapeLayer = [CAShapeLayer layer];
     _shapeLayer.frame = self.bounds;
     _shapeLayer.path = path.CGPath;
-    _shapeLayer.lineWidth = 2.;
+    _shapeLayer.lineWidth = 2.f;
     _shapeLayer.strokeColor = self.tintColor.CGColor;
     _shapeLayer.fillColor = [UIColor clearColor].CGColor;
+    
+    self.contentEdgeInsets = UIEdgeInsetsMake(4., 3., 5., 3.);
+    
+    [self updateBackground];
 }
 
 - (id)init
@@ -78,13 +82,25 @@
     } else {
         [self.shapeLayer removeFromSuperlayer];
     }
+    //    [self setNeedsDisplay];
+}
+
+- (void) updateBackground
+{
+    self.backgroundColor = self.selected ? self.tintColor : [UIColor clearColor];
 }
 
 - (void) changed:(UIButton*)button
 {
     self.selected = !self.selected;
-    self.backgroundColor = self.selected ? self.tintColor : [UIColor clearColor];
     [self sendActionsForControlEvents:UIControlEventValueChanged];
+    [self updateBackground];
+}
+
+- (CGSize)intrinsicContentSize
+{
+    CGSize s = [super intrinsicContentSize];
+    return s;
 }
 
 @end
