@@ -82,7 +82,6 @@
     } else {
         [self.shapeLayer removeFromSuperlayer];
     }
-    //    [self setNeedsDisplay];
 }
 
 - (void) updateBackground
@@ -93,14 +92,22 @@
 - (void) changed:(UIButton*)button
 {
     self.selected = !self.selected;
-    [self sendActionsForControlEvents:UIControlEventValueChanged];
-    [self updateBackground];
 }
 
 - (CGSize)intrinsicContentSize
 {
     CGSize s = [super intrinsicContentSize];
     return s;
+}
+
+- (void)setSelected:(BOOL)selected
+{
+    BOOL updated = selected != self.selected;
+    [super setSelected:selected];
+    if (updated) {
+        [self sendActionsForControlEvents:UIControlEventValueChanged];
+        [self updateBackground];
+    }
 }
 
 @end
