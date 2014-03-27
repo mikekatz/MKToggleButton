@@ -20,8 +20,23 @@
 
 #import "MKToggleButton.h"
 
+@interface RoundView : UIView
+@property (nonatomic, strong) UIBezierPath* path;
+@end
+
+@implementation RoundView
+
+- (void)drawRect:(CGRect)rect
+{
+    self.path.lineWidth = [self.window.screen scale];
+    [self.tintColor setStroke];
+    [self.path stroke];
+}
+
+@end
+
 @interface MKToggleButton ()
-@property (nonatomic, weak) CAShapeLayer* shapeLayer;
+@property (nonatomic, strong) UIView* borderView;
 @end
 
 @implementation MKToggleButton
@@ -36,12 +51,10 @@
     mask.path = path.CGPath;
     self.layer.mask = mask;
     
-    _shapeLayer = [CAShapeLayer layer];
-    _shapeLayer.frame = self.bounds;
-    _shapeLayer.path = path.CGPath;
-    _shapeLayer.lineWidth = 2.f;
-    _shapeLayer.strokeColor = self.tintColor.CGColor;
-    _shapeLayer.fillColor = [UIColor clearColor].CGColor;
+    _borderView = [[RoundView alloc] initWithFrame:self.bounds];
+    _borderView.backgroundColor = [UIColor clearColor];
+    _borderView.userInteractionEnabled =NO;
+    ((RoundView*)_borderView).path = path;
     
     self.contentEdgeInsets = UIEdgeInsetsMake(4., 3., 5., 3.);
     
@@ -78,9 +91,9 @@
 - (void)setShowsBorder:(BOOL)showsBorder
 {
     if (showsBorder) {
-        [self.layer addSublayer:self.shapeLayer];
+        [self addSubview:self.borderView];
     } else {
-        [self.shapeLayer removeFromSuperlayer];
+        [self.borderView removeFromSuperview];
     }
 }
 
@@ -92,12 +105,6 @@
 - (void) changed:(UIButton*)button
 {
     self.selected = !self.selected;
-}
-
-- (CGSize)intrinsicContentSize
-{
-    CGSize s = [super intrinsicContentSize];
-    return s;
 }
 
 - (void)setSelected:(BOOL)selected
