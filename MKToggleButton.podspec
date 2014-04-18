@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MKToggleButton"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "A binary toggle button that looks like the iOS7 toolbar toggles"
 
   s.description  = "This UIButton subclass emulates the rounded-rect toggle buttons seen in many iOS 7 applications."
