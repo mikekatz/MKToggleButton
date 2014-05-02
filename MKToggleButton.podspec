@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.social_media_url = "http://twitter.com/TheMikeKatz"
 
   s.platform     = :ios, '7.0'
-  s.source       = { :git => "https://github.com/mikekatz/MKToggleButton.git", :tag => "v1.0.0" }
+  s.source       = { :git => "https://github.com/mikekatz/MKToggleButton.git", :tag => "v1.1.0" }
   s.source_files  = 'MKToggleButton', 'MKToggleButton/**/*.{h,m}'
   s.requires_arc = true
 end
