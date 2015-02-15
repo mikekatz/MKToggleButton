@@ -70,6 +70,12 @@
     return self;
 }
 
+-(void)setTintColor:(UIColor *)tintColor {
+    
+    [super setTintColor:tintColor];
+    [self updateBackground];
+}
+
 - (id)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
@@ -100,6 +106,7 @@
 - (void) updateBackground
 {
     self.backgroundColor = self.selected ? self.tintColor : [UIColor clearColor];
+    [self.borderView setNeedsDisplay];
 }
 
 - (void) changed:(UIButton*)button
