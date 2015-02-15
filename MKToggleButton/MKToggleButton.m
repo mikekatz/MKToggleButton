@@ -3,7 +3,7 @@
 //  MKToggleButton
 //
 //  Created by Michael Katz on 3/25/14.
-//  Copyright (c) 2014 Michael Katz.
+//  Copyright (c) 2014-2015 Michael Katz.
 //
 //  Licensed under the Apache License, Version 2.0 (the "License");
 //  you may not use this file except in compliance with the License.
